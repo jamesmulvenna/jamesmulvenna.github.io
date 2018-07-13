@@ -1,0 +1,18 @@
+Who is the owner?
+James Mulvenna
+
+What is important to me?
+1. Easy to discover over the net and what I'm about
+2. Easy on the eye, yet attractive and modern UI
+3. Some responsiveness to the page, not just HTML
+4. Some point of contact
+
+Who is the audience?
+1. Prospective Employers
+2. Connections - peers, professors, etc.
+3. Browsers
+
+# Features
+- about (Summary, Resume, LinkedIn, GitHub, Projects, Hobbies)
+- blog
+- contact me
