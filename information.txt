@@ -14,5 +14,5 @@ Who is the audience?
 
 # Features
 - about (Summary, Resume, LinkedIn, GitHub, Projects, Hobbies)
-- blog
+- blog (Jekyll)
 - contact me
