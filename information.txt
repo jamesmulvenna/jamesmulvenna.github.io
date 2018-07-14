@@ -8,11 +8,15 @@ What is important to me?
 4. Some point of contact
 
 Who is the audience?
-1. Prospective Employers
+1. Prospective employers
 2. Connections - peers, professors, etc.
-3. Browsers
+3. Other browsers
 
 # Features
-- about (Summary, Resume, LinkedIn, GitHub, Projects, Hobbies)
+- intro
+- about (Summary, Resume, LinkedIn, GitHub, Projects)
+- hobbies (Sports, Reading, Podcasts, etc.)
 - blog (Jekyll)
 - contact me
+
+Influence: http://www.goldsquare.co
