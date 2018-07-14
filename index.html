@@ -13,7 +13,28 @@
       <meta property="og:image:height" content="500"/>-->
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
   <h1>James Mulvenna's personal website.</h1>
-  <input type="image" class="toggle-overlay" src="img/menu.png"/>
+  <button class="toggle-overlay">Menu</button>
 </head>
 
-<body>
+<aside>
+  <div class="outer-close toggle-overlay">
+    <a class="close"><span></span></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#!">Home</a></li>
+      <li><a href="#!">About</a></li>
+      <li><a href="#!">Hobbies</a></li>
+      <li><a href="#!">Blog</a></li>
+      <li><a href="#!">Contact</a></li>
+    </ul>
+  </nav>
+</aisde>
+
+<script>(function($) {
+  $(function() {
+    $('.toggle-overlay').click(function() {
+      $('aside').toggleClass('open');
+    });
+  });
+})(jQuery);</script>
