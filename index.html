@@ -2,7 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>James Mulvenna</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <!-- <link rel="shortcut icon" type="image/x-icon" href"..."/> -->
   <meta property="og:site_name" content="James Mulvenna"/>
   <meta property="og:title" content="James' Personal Website"/>
@@ -12,37 +14,17 @@
       <meta property="og:image:width" content="500"/>
       <meta property="og:image:height" content="500"/>-->
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  
 </head>
 
 <body>
 
-<main>
-  <h1>James Mulvenna's personal website.</h1>
-  <button class="toggle-overlay">Menu</button>
-</main>
-
-<aside>
-  <div class="outer-close toggle-overlay">
-    <a class="close"><span></span></a>
-  </div>
-  <nav>
-    <ul>
-      <li><a href="#!">Home</a></li>
-      <li><a href="#!">About</a></li>
-      <li><a href="#!">Hobbies</a></li>
-      <li><a href="#!">Blog</a></li>
-      <li><a href="#!">Contact</a></li>
-    </ul>
-  </nav>
-</aisde>
-
-<script>(function($) {
-  $(function() {
-    $('.toggle-overlay').click(function() {
-      $('aside').toggleClass('open');
-    });
-  });
-})(jQuery);
-</script>
+<div class="sidenav">
+  <img src=me.jpg class="me"/>
+  <a href="#about">About Me</a>
+  <a href="#services">Hobbies</a>
+  <a href="#clients">Blog</a>
+  <a href="#contact">Contact</a>
+</div>
 </body>
 </html>

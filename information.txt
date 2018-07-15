@@ -19,4 +19,6 @@ Who is the audience?
 - blog (Jekyll)
 - contact me
 
-Influence: http://www.goldsquare.co
+Influencers: http://www.goldsquare.co
+https://codepen.io/taniarascia/pen/yYrXRG
+http://kalynnakano.com
