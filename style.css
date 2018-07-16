@@ -1,9 +1,25 @@
-head {
+.Intro {
+	text-align: center;
+	font-size: 2em;
+	display: block;
+	width: 90vw;
+	margin: 3em auto;
+	padding-left: 200px;
+}
 
+.Summary {
+	text-align: center;
+	font-size: 1.1em;
+	display: block;
+	width: 90vw;
+	margin: 3em auto;
+	padding-left: 200px;
 }
 
 body {
   background: rgba(248,248,248,1);
+  border-top: 3px solid #3C3E6E;
+  left: 50%;
   font-family: 'Libre Baskerville', serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -26,8 +42,8 @@ body {
     background-color: #6f656e;
     overflow-x: hidden;
     padding-top: 20px;
-	-webkit-box-shadow: 10px 0 5px -2px rgba(0, 0, 0, 0.1);;
-	          box-shadow: 10px 0 5px -2px rgba(0, 0, 0, 0.1);;
+	-webkit-box-shadow: 10px 0 5px -2px rgba(0, 0, 0, 0.1);
+	          box-shadow: 10px 0 5px -2px rgba(0, 0, 0, 0.1);
 }
 
 .sidenav a {
@@ -40,6 +56,8 @@ body {
 
 .sidenav a:hover {
     color: #3C3E6E;
+	transition: 0.2s ease-in-out;
+	cursor: pointer;
 }
 
 @media screen and (max-height: 450px) {
